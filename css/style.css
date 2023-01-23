@@ -1,0 +1,131 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-size: small;
+}
+button {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 25px;
+  height: 30px;
+  font-size: 15px;
+}
+body {
+  margin: 10px;
+  background-color: #f9fafc;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+a:link {
+  text-decoration: none;
+  color: #69696a;
+}
+a:visited {
+  text-decoration: none;
+  color: #69696a;
+}
+a:active {
+  text-decoration: none;
+  color: #69696a;
+}
+a:hover {
+  text-decoration: none;
+  color: #69696a;
+}
+p {
+  border-left: thick solid #69696a;
+  padding: 10px;
+}
+h3 {
+  padding: 10px;
+}
+footer {
+  position: fixed;
+  background-color: rgba(247, 193, 162, 0.7);
+  width: 100%;
+  bottom: 0;
+  margin-left: -10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.footer-links {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (min-width: 768px) {
+  .circle {
+    display: inline;
+    width: 50%;
+  }
+  .circle-one {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(247, 136, 167, 0.6);
+    border: 1px solid rgba(247, 136, 167, 0.6);
+    position: absolute;
+    right: 100px;
+    top: 200px;
+  }
+  .circle-two {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-color: rgba(247, 193, 162, 0.7);
+    border: 1px solid rgba(247, 193, 162, 0.7);
+    position: absolute;
+    right: 25px;
+    top: 270px;
+  }
+  .circle-three {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(207, 130, 213, 0.6);
+    border: 1px solid rgba(207, 130, 213, 0.6);
+    position: absolute;
+    right: 35px;
+    top: 200px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .head-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .head-nav-links {
+    display: flex;
+    flex-direction: row;
+  }
+  .navtab {
+    margin-right: 10px;
+  }
+  .hire-us {
+    width: auto;
+  }
+  p {
+    width: 50%;
+  }
+}
