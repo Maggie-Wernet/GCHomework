@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Make Money!</title>
+    <link rel="stylesheet" href="./makemoney.css" />
+  </head>
+  <body>
+    <h1 id="makeMoney">Make Money!</h1>
+    <fieldset>
+      <form>
+        <ol>
+          <li id="numberCoins">
+            <label for="number-of-coins">How Many?</label>
+            <input type="number" name="number-of-coins" id="numberOfCoins" />
+          </li>
+          <li id="coinTypes">
+            <label for="type-of-conins">Which coin?</label>
+            <select name="type-of-coin" id="typeOfCoin">
+              <option value="penny">Penny</option>
+              <option value="nickel">Nickel</option>
+              <option value="dime">Dime</option>
+              <option value="quarter">Quarter</option>
+            </select>
+          </li>
+        </ol>
+        <button type="button" id="buttonMakeMoney">Make Money!</button>
+      </form>
+    </fieldset>
+    <div id="coins"></div>
+
+    <script src="./makemoney.js"></script>
+  </body>
+</html>
